@@ -2,7 +2,7 @@ package com.api.crud.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "task")
+@Table(name = "tasks")
 public class TaskModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
